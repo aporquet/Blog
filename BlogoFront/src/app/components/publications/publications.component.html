@@ -1,1 +1,25 @@
-<p>publications works!</p>
+<div class="container-fluid mt-3">
+    <div class="row">
+        <div class="col">
+            <div class="card shadow">
+                <div class="card-body">
+                    <h5 class="card-title">Publications</h5>
+                    <div class="card-text table-responsive">
+                        <table class="table">
+                            <thead>
+                            <tr>
+                                <th scope="col">Title</th>
+                                <th scope="col">Content</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <app-publication-row style="display: contents;" *ngFor="let publication of apiService.publications"
+                                               [publication]="publicatio " ></app-publication-row>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
