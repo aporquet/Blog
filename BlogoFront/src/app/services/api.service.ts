@@ -6,6 +6,8 @@ export class ApiService {
 
     private url = environment.url;
 
+    publications: Publication[] = [];
+
     constructor(private httpClient: HttpClient) {
     }
 
