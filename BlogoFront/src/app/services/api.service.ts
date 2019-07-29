@@ -6,12 +6,10 @@ export class ApiService {
 
     private url = environment.url;
 
-    publications: Publication[] = [];
-
     constructor(private httpClient: HttpClient) {
     }
 
-    getPublications() {
+    firstCall() {
         return this.httpClient.get<Publication[]>(this.url + 'publications');
     }
 }
