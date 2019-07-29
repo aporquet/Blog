@@ -20,11 +20,22 @@ namespace BlogoApi
             Configuration = configuration;
         }
 
+        readonly string LocalpecificOrigins = "_localSpecificOrigins";
+
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(options =>
+            {
+                options.AddPolicy(LocalpecificOrigins,
+                builder =>
+                {
+                    builder.WithOrigins("http://localhost:4200");
+                });
+            });
+
             services.AddDbContext<BlogoContext>(opt =>
                 opt.UseMySql(Configuration.GetConnectionString("DefaultConnection")));
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
@@ -43,6 +54,7 @@ namespace BlogoApi
                 app.UseHsts();
             }
 
+            app.UseCors(LocalpecificOrigins);
             app.UseHttpsRedirection();
             app.UseMvc();
         }
