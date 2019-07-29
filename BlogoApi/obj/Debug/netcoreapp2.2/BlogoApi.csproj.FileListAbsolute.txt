@@ -12,3 +12,17 @@
 /Users/Soat-AP/Desktop/blogo/BlogoApi/obj/Debug/netcoreapp2.2/BlogoApi.RazorTargetAssemblyInfo.cache
 /Users/Soat-AP/Desktop/blogo/BlogoApi/obj/Debug/netcoreapp2.2/BlogoApi.dll
 /Users/Soat-AP/Desktop/blogo/BlogoApi/obj/Debug/netcoreapp2.2/BlogoApi.pdb
+/Users/Soat-AP/Desktop/Blog/BlogoApi/bin/Debug/netcoreapp2.2/BlogoApi.deps.json
+/Users/Soat-AP/Desktop/Blog/BlogoApi/bin/Debug/netcoreapp2.2/BlogoApi.runtimeconfig.json
+/Users/Soat-AP/Desktop/Blog/BlogoApi/bin/Debug/netcoreapp2.2/BlogoApi.runtimeconfig.dev.json
+/Users/Soat-AP/Desktop/Blog/BlogoApi/bin/Debug/netcoreapp2.2/BlogoApi.dll
+/Users/Soat-AP/Desktop/Blog/BlogoApi/bin/Debug/netcoreapp2.2/BlogoApi.pdb
+/Users/Soat-AP/Desktop/Blog/BlogoApi/obj/Debug/netcoreapp2.2/BlogoApi.csprojAssemblyReference.cache
+/Users/Soat-AP/Desktop/Blog/BlogoApi/obj/Debug/netcoreapp2.2/BlogoApi.csproj.CoreCompileInputs.cache
+/Users/Soat-AP/Desktop/Blog/BlogoApi/obj/Debug/netcoreapp2.2/BlogoApi.RazorAssemblyInfo.cache
+/Users/Soat-AP/Desktop/Blog/BlogoApi/obj/Debug/netcoreapp2.2/BlogoApi.RazorAssemblyInfo.cs
+/Users/Soat-AP/Desktop/Blog/BlogoApi/obj/Debug/netcoreapp2.2/BlogoApi.AssemblyInfoInputs.cache
+/Users/Soat-AP/Desktop/Blog/BlogoApi/obj/Debug/netcoreapp2.2/BlogoApi.AssemblyInfo.cs
+/Users/Soat-AP/Desktop/Blog/BlogoApi/obj/Debug/netcoreapp2.2/BlogoApi.RazorTargetAssemblyInfo.cache
+/Users/Soat-AP/Desktop/Blog/BlogoApi/obj/Debug/netcoreapp2.2/BlogoApi.dll
+/Users/Soat-AP/Desktop/Blog/BlogoApi/obj/Debug/netcoreapp2.2/BlogoApi.pdb

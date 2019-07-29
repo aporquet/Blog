@@ -12155,11 +12155,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Soat-AP/Desktop/blogo/BlogoApi/BlogoApi.csproj",
+      "projectUniqueName": "/Users/Soat-AP/Desktop/Blog/BlogoApi/BlogoApi.csproj",
       "projectName": "BlogoApi",
-      "projectPath": "/Users/Soat-AP/Desktop/blogo/BlogoApi/BlogoApi.csproj",
+      "projectPath": "/Users/Soat-AP/Desktop/Blog/BlogoApi/BlogoApi.csproj",
       "packagesPath": "/Users/Soat-AP/.nuget/packages/",
-      "outputPath": "/Users/Soat-AP/Desktop/blogo/BlogoApi/obj/",
+      "outputPath": "/Users/Soat-AP/Desktop/Blog/BlogoApi/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

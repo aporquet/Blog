@@ -8,6 +8,7 @@ import { FormBuilder } from '@angular/forms';
   templateUrl: './publication-row.component.html',
   styleUrls: ['./publication-row.component.css']
 })
+
 export class PublicationRowComponent implements OnInit {
 
   @Input() publication: Publication;

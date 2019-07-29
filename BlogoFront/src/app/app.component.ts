@@ -10,16 +10,16 @@ import { environment } from 'src/environments/environment';
 })
 
 export class AppComponent implements OnInit{
+
+  title = 'Blog';
+  private url = environment.url;
   
-  constructor(private apiService: ApiService, private httpClient:HttpClient) {
+  constructor(private httpClient:HttpClient) {
   }
 
   ngOnInit(): void {
     this.firstCall();
   }
-
-  title = 'Blogo';
-  private url = environment.url;
 
   firstCall() {
     this.httpClient.get(this.url+'publications');
