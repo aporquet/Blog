@@ -16,17 +16,17 @@ export class AppComponent implements OnInit{
   title = 'Blog';
   private url = environment.url;
   
-  constructor(private publicationService: PublicationService, private httpClient:HttpClient) {
+  constructor(private publicationService: PublicationService) {
   }
 
   ngOnInit(): void {
-    "efpnsfpsnfpsnfpsenf"
+    this.getPublications()
   }
 
   getPublications(){
     this.publicationService.getPublications().subscribe((response: Publication[]) => {
-        this.publicationService.publications = response;
-    });
+      this.publicationService.publications= response;
+  });
 }
 
 }

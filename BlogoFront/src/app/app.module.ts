@@ -7,12 +7,14 @@ import { PublicationsComponent } from './components/publications/publications.co
 import { HttpClientModule } from '@angular/common/http';
 import { PublicationRowComponent } from './components/publication-row/publication-row.component';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PublicationsComponent,
-    PublicationRowComponent
+    PublicationRowComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

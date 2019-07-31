@@ -4,7 +4,8 @@ export default class Publication {
     private _Title: string;
     private _Content: string;
 
-    constructor(Title: string, Content: string) {
+    constructor(Id:number, Title: string, Content: string) {
+        this._Id = Id;
         this._Title = Title;
         this._Content = Content;
     }
