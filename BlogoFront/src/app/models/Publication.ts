@@ -28,4 +28,12 @@ export default class Publication {
     set Content(value: string) {
         this._Content = value;
     }
+
+    PublicationFormatToInsert() {
+        return {
+            Id: this.Id,
+            Title: this.Title,
+            Content: this.Content
+        };
+    }
 }
