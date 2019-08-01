@@ -8,19 +8,24 @@ import { HttpClientModule } from '@angular/common/http';
 import { PublicationRowComponent } from './components/publication-row/publication-row.component';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { HeaderComponent } from './components/header/header.component';
+import { NewPublicationComponent } from './components/new-publication/new-publication.component';
+import {NgbdModalConfigModule} from './modal/modal-config.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     PublicationsComponent,
     PublicationRowComponent,
-    HeaderComponent
+    HeaderComponent,
+    NewPublicationComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    ReactiveFormsModule,
+    FormsModule,
+    NgbdModalConfigModule
   ],
   providers: [],
   bootstrap: [AppComponent]
