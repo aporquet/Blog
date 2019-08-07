@@ -1,12 +1,13 @@
 import { Injectable } from '@angular/core';
 import Publication from 'src/app/models/Publication';
 import { ApiService } from '../api.service';
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { environment } from 'src/environments/environment';
 
 @Injectable({
   providedIn: 'root'
 })
+
 export class PublicationService {
 
   private url = environment.url;
@@ -19,7 +20,7 @@ export class PublicationService {
   }
 
   insertPublication(publicaion: Publication) {
-    return this.httpClient.post<Publication>(this.url + 'publications/insert', publicaion.PublicationFormatToInsert());
+    return this.httpClient.post<Publication>(this.url + 'publications', publicaion.PublicationFormatToInsert());
   }
   
 }

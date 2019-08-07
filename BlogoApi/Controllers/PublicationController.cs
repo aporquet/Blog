@@ -38,7 +38,7 @@ namespace TodoApi.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<Publication>> PostTodoItem(Publication publication)
+        public async Task<ActionResult<Publication>> InsertPublication(Publication publication)
         {
             _context.Publication.Add(publication);
             await _context.SaveChangesAsync();
