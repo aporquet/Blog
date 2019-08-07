@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { NgbModalConfig, NgbModal } from '@ng-bootstrap/ng-bootstrap';
+import { NgbModal, NgbModalConfig } from '@ng-bootstrap/ng-bootstrap';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { PublicationService } from 'src/app/services/publication/publication.service';
 import Publication from 'src/app/models/Publication';
@@ -23,14 +23,14 @@ export class NewPublicationComponent implements OnInit {
     this.initForm();
   }
 
-  open(content) {
-    this.modalService.open(content);
+  open(contentmodal: any) {
+    this.modalService.open(contentmodal);
   }
 
   initForm() {
     this.publicationForm = this.formBuilder.group({
       title: ['', [Validators.required, Validators.min(2), Validators.max(25)]],
-      experience: ['', [Validators.required, Validators.min(10), Validators.max(500)]]
+      content: ['', [Validators.required, Validators.min(10), Validators.max(500)]]
     });
   }
 

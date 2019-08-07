@@ -1,4 +1,4 @@
-<ng-template #content let-c="close" let-d="dismiss">
+<ng-template #contentmodal let-c="close" let-d="dismiss">
         <div class="modal-header">
             <h6 class="modal-title" id="modal-basic-title">Publication</h6>
             <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
@@ -22,5 +22,5 @@
         </div>
     </ng-template>
     
-    <button class="btn btn-primary" style="margin-left: 15px; margin-top: 20px;" (click)="open(content)">Add publication
+    <button class="btn btn-primary" style="margin-left: 15px; margin-top: 20px;" (click)="open(contentmodal)">Add publication
     </button>
