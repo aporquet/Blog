@@ -19,8 +19,8 @@ export class PublicationService {
     return this.httpClient.get<Publication[]>(this.url + 'publications');
   }
 
-  insertPublication(publicaion: Publication) {
-    return this.httpClient.post<Publication>(this.url + 'publications', publicaion.PublicationFormatToInsert());
+  insertPublication(publication: Publication) {
+    return this.httpClient.post<Publication>(this.url + 'publications', publication.PublicationFormatToInsert());
   }
   
 }

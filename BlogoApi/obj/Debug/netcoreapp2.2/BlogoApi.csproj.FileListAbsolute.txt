@@ -26,3 +26,17 @@
 /Users/Soat-AP/Desktop/Blog/BlogoApi/obj/Debug/netcoreapp2.2/BlogoApi.RazorTargetAssemblyInfo.cache
 /Users/Soat-AP/Desktop/Blog/BlogoApi/obj/Debug/netcoreapp2.2/BlogoApi.dll
 /Users/Soat-AP/Desktop/Blog/BlogoApi/obj/Debug/netcoreapp2.2/BlogoApi.pdb
+/home/antoine/projects/Blog/BlogoApi/bin/Debug/netcoreapp2.2/BlogoApi.deps.json
+/home/antoine/projects/Blog/BlogoApi/bin/Debug/netcoreapp2.2/BlogoApi.runtimeconfig.json
+/home/antoine/projects/Blog/BlogoApi/bin/Debug/netcoreapp2.2/BlogoApi.runtimeconfig.dev.json
+/home/antoine/projects/Blog/BlogoApi/bin/Debug/netcoreapp2.2/BlogoApi.dll
+/home/antoine/projects/Blog/BlogoApi/bin/Debug/netcoreapp2.2/BlogoApi.pdb
+/home/antoine/projects/Blog/BlogoApi/obj/Debug/netcoreapp2.2/BlogoApi.csprojAssemblyReference.cache
+/home/antoine/projects/Blog/BlogoApi/obj/Debug/netcoreapp2.2/BlogoApi.csproj.CoreCompileInputs.cache
+/home/antoine/projects/Blog/BlogoApi/obj/Debug/netcoreapp2.2/BlogoApi.RazorAssemblyInfo.cache
+/home/antoine/projects/Blog/BlogoApi/obj/Debug/netcoreapp2.2/BlogoApi.RazorAssemblyInfo.cs
+/home/antoine/projects/Blog/BlogoApi/obj/Debug/netcoreapp2.2/BlogoApi.AssemblyInfoInputs.cache
+/home/antoine/projects/Blog/BlogoApi/obj/Debug/netcoreapp2.2/BlogoApi.AssemblyInfo.cs
+/home/antoine/projects/Blog/BlogoApi/obj/Debug/netcoreapp2.2/BlogoApi.RazorTargetAssemblyInfo.cache
+/home/antoine/projects/Blog/BlogoApi/obj/Debug/netcoreapp2.2/BlogoApi.dll
+/home/antoine/projects/Blog/BlogoApi/obj/Debug/netcoreapp2.2/BlogoApi.pdb

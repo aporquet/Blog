@@ -1,40 +1,40 @@
 export default class Publication {
 
-    private _Id: number;
-    private _Title: string;
-    private _Content: string;
+    private _id: number;
+    private _title: string;
+    private _content: string;
 
-    constructor(Id:number, Title: string, Content: string) {
-        this._Id = Id;
-        this._Title = Title;
-        this._Content = Content;
+    constructor(id:number, title: string, content: string) {
+        this._id = id;
+        this._title = title;
+        this._content = content;
     }
 
-    get Id(): number {
-        return this._Id;
+    get id(): number {
+        return this._id;
     }
 
-    get Title(): string {
-        return this._Title;
+    get title(): string {
+        return this._title;
     }
 
-    get Content(): string {
-        return this._Content;
+    get content(): string {
+        return this._content;
     }
 
-    set Title(value: string) {
-        this._Title = value;
+    set title(value: string) {
+        this._title = value;
     }
 
-    set Content(value: string) {
-        this._Content = value;
+    set content(value: string) {
+        this._content = value;
     }
 
     PublicationFormatToInsert() {
         return {
-            Id: this.Id,
-            Title: this.Title,
-            Content: this.Content
+            id: this.id,
+            title: this.title,
+            content: this.content
         };
     }
 }

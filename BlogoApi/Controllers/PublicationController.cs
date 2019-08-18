@@ -5,7 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using BlogoApi.Models;
 
-namespace TodoApi.Controllers
+namespace BlogoApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -43,7 +43,8 @@ namespace TodoApi.Controllers
             _context.Publication.Add(publication);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction(nameof(GetPublication), publication);
+            return CreatedAtAction(nameof(GetPublications), publication);
         }
+        
     }
 }

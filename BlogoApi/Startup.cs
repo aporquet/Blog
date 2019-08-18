@@ -32,7 +32,8 @@ namespace BlogoApi
                 options.AddPolicy(LocalpecificOrigins,
                 builder =>
                 {
-                    builder.WithOrigins("http://localhost:4200");
+                    builder.WithOrigins("http://localhost:4200")
+                    .AllowAnyHeader();
                 });
             });
 
