@@ -22,5 +22,9 @@ export class PublicationService {
   insertPublication(publication: Publication) {
     return this.httpClient.post<Publication>(this.url + 'publications', publication.PublicationFormatToInsert());
   }
+
+  insertPublicationView(publicationInserted: Publication){
+    this.publications.push(publicationInserted);
+  }
   
 }
