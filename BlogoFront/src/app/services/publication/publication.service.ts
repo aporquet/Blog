@@ -26,5 +26,13 @@ export class PublicationService {
   insertPublicationView(publicationInserted: Publication){
     this.publications.push(publicationInserted);
   }
+
+  deletePublication(id: number){
+    return this.httpClient.delete<number>(this.url + 'pubications/delete/'+id);
+  }
+
+  deletePublicationView(publicationRemoved: Publication){
+    this.publications.splice(this.publications.indexOf(publicationRemoved, 1));
+  }
   
 }

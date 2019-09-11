@@ -45,6 +45,22 @@ namespace BlogoApi.Controllers
 
             return CreatedAtAction(nameof(GetPublications), publication);
         }
-        
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeletePublication(long id)
+        {
+            var publication = await _context.Publication.FindAsync(id);
+
+            if (publication == null)
+            {
+                return NotFound();
+            }
+
+            _context.Publication.Remove(publication);
+            await _context.SaveChangesAsync();
+
+            return NoContent();
+        }
+
     }
 }
