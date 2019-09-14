@@ -34,7 +34,7 @@ export class PublicationRowComponent implements OnInit {
             this.publicationService.success = null;
         }, 5000);
     });
-    this.publicationService.deletePublication(idPublication);
+    this.publicationService.deletePublicationView(this.publication);
 }
 
 }
