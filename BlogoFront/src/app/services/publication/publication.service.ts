@@ -12,6 +12,8 @@ export class PublicationService {
 
   private url = environment.url;
   publications: Publication[] = [];
+  success: string;
+  error: string;
 
   constructor(private httpClient: HttpClient) { }
 

@@ -4,7 +4,7 @@
         <h5 class="card-title">{{publication.title}}</h5>
         <p class="card-text">{{publication.content}}</p>
         <div class="action-buttons-publication-container">
-            <a href="#" class="btn btn-primary action-button-publication button-update-publication">Update</a>
+            <a href="#" class="btn btn-primary action-button-publication button-update-publication" (click)="delete()">Update</a>
             <a href="#" class="btn btn-danger action-button-publication button-remove-publication">Remove</a>
         </div>
     </div>
