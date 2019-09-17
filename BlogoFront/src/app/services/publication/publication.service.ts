@@ -30,7 +30,7 @@ export class PublicationService {
   }
 
   deletePublication(id: number){
-    return this.httpClient.delete<number>(this.url + 'pubications/delete/'+id);
+    return this.httpClient.delete<number>(this.url + 'publications/'+id);
   }
 
   deletePublicationView(publicationRemoved: Publication){

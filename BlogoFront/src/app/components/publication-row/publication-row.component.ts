@@ -18,7 +18,8 @@ export class PublicationRowComponent implements OnInit {
     console.log(this.publication)
   }
 
-  OnRemoveCandidate(){
+  removeCandidate(){
+    console.log("first call on delete function")
     let idPublication = this.publication.id;
     this.publicationService.deletePublication(idPublication).subscribe(response => {
         if (response){

@@ -55,7 +55,9 @@ namespace BlogoApi
                 app.UseHsts();
             }
 
-            app.UseCors(LocalpecificOrigins);
+            app.UseCors(
+                options => options.WithOrigins("http://localhost:4200").AllowAnyMethod()
+            );
             app.UseHttpsRedirection();
             app.UseMvc();
         }
